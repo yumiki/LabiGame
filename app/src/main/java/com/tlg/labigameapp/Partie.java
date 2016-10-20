@@ -11,6 +11,6 @@ public class Partie {
     }
     
     public boolean partieTerminee(){
-        if((joueur.position.x==
+        if((joueur.position.x==lab.PointdArrivee
     }
 }

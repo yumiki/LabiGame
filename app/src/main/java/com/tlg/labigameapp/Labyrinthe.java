@@ -3,8 +3,8 @@ package com.tlg.labigameapp;
 public class Labyrinthe {
 
 
-    int PointdeDepart;
-    int PointdArrivee;
+    Point depart;
+    Point arrivee;
     boolean Case;
 
 
