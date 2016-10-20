@@ -16,7 +16,22 @@ public class Labyrinthe {
             }
         }
 
+        cases[0][3]=true;
+        cases[1][3]=true;
+        cases[2][3]=true;
+        cases[3][3]=true;
+        cases[3][4]=true;
+        cases[4][4]=true;
+        cases[5][4]=true;
+        cases[5][5]=true;
+        cases[6][5]=true;
+        cases[7][5]=true;
 
+        depart.setX(0);
+        depart.setY(3);
+
+        arrivee.setX(7);
+        arrivee.setY(5);
     }
 
 }
