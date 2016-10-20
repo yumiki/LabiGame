@@ -11,6 +11,10 @@ public class Partie {
     }
     
     public boolean partieTerminee(){
-        if((joueur.position.x==lab.PointdArrivee
+        return  (joueur.position.x==lab.arrivee.x)&&(joueur.position.y==lab.arrivee.y);
+    }
+
+    void lancerPartie(){
+
     }
 }

@@ -4,14 +4,11 @@ public class Robot {
 
     Point position;
 
-
-
     public void deplacerHaut(){
         
     this.position.y=this.position.y+1; 
         
     }
-
 
     public void deplacerBas(){
         
