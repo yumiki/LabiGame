@@ -14,7 +14,7 @@ public class Partie {
         return  (joueur.position.x==lab.arrivee.x)&&(joueur.position.y==lab.arrivee.y);
     }
 
-    void lancerPartie(){
-
+    void lancerPartie(Thread t){
+        t.start();
     }
 }
