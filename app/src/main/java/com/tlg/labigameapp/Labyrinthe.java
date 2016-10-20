@@ -1,3 +1,5 @@
+package com.tlg.labigameapp;
+
 public class Labyrinthe {
 
 
