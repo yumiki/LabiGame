@@ -5,7 +5,7 @@ public class Labyrinthe {
 
     Point depart;
     Point arrivee;
-    boolean[][] cases;
+    public boolean[][] cases=new boolean[8][8];
 
 
     public void generer(){
@@ -32,6 +32,10 @@ public class Labyrinthe {
 
         arrivee.setX(7);
         arrivee.setY(5);
+    }
+
+    public Labyrinthe(){
+        generer();
     }
 
 }
