@@ -12,5 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Labyrinthe lab= new Labyrinthe();
         Log.v("test",lab.cases[5][6]+"");
+        Partie Jeu=new Partie(MainActivity.this);
+        Jeu.lancerPartie(lab);
     }
 }
